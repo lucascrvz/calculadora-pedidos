@@ -16,8 +16,5 @@ jobs:
                 distribution: 'temurin'
                 java-version: '17'
 
-            - name: Compilar el proyecto
-              run: mvn clean compile
-
             - name: Ejecutar pruebas unitarias
               run: mvn test
